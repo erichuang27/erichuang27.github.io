@@ -1,0 +1,27 @@
+{
+  "name": "erichuang27.github.io",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erichuang27/erichuang27.github.io.git"
+  },
+  "keywords": [
+    "website",
+    "portfolio"
+  ],
+  "author": "Eric Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erichuang27/erichuang27.github.io/issues"
+  },
+  "homepage": "https://github.com/erichuang27/erichuang27.github.io#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

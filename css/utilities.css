@@ -11,6 +11,14 @@
   padding: 1rem 2rem;
 }
 
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
 h1::selection,
 h2::selection {
   color: #111;
@@ -60,17 +68,6 @@ h2::selection {
   width: 30px;
 }
 
-.moon {
-  transform: rotate(10deg);
-}
-
-#switch:checked + .toggle-icons .moon {
-  transform: rotate(250deg);
-}
-
-#switch:checked + .toggle-icons .sun {
-  transform: rotate(100deg);
-}
 
 /* Header Container */
 .header-container {
@@ -82,9 +79,6 @@ h2::selection {
   padding: 1rem;
 }
 
-.header-container > div {
-  margin-top: 1rem;
-}
 
 .content-text {
   text-align: center;
