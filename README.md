@@ -1,4 +1,5 @@
 ## Eric Huang's Personal Website
-Work In progress. This is where I will flex.
+
+Work In progress.
 
 (https://erichuang27.github.io)
